@@ -5,13 +5,20 @@ x = list(wejscie)
 
 x1 = x[0]
 x2 = x[1]
-tablica_wynikow = []
+tablica_wynikow1 = []
+tablica_wynikow2 = []
+
 while x1 >= 1:
-    tablica_wynikow.append(x1)
+    tablica_wynikow1.append(x1)
     x1 = x1 - 1
 
-print(tablica_wynikow)
+while x2 >= 1:
+    tablica_wynikow2.append(x1)
+    x2 = x2 - 1
 
-mnozenie = math.prod(tablica_wynikow)
+print(tablica_wynikow1)
+print(tablica_wynikow2)
 
-print(mnozenie)
+mnozenie1 = math.prod(tablica_wynikow1)
+mnozenie2 = math.prod(tablica_wynikow2)
+print(mnozenie1, mnozenie2)
